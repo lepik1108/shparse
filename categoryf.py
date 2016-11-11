@@ -7,7 +7,7 @@ def make(cat_id, name, descr, uri):
         'en' => 
         array (
           'name' => '"""+str(name)+"""',
-          'description_full' => """+str(descr)+"""',
+          'description_full' => '"""+str(descr)+"""',
           'description_short' => '"""+str(descr)+"""',
           'uri' => '"""+str(uri)+"""',
           'category_id' => '"""+str(cat_id)+"""',

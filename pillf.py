@@ -1,4 +1,4 @@
-def make(pill_id, name, description_f, description_s, manufacturer, uri, price, price_min):
+def make(pill_id, name, description_f, description_s, manufacturer, uri, price):
     config = """<?php 
      $data = array (
       'description' => 
@@ -52,7 +52,7 @@ def make(pill_id, name, description_f, description_s, manufacturer, uri, price, 
             ),
           ),
         ),
-        'price_min' => '"""+str(price_min)+"""',
+        'price_min' => '1',
         'package' => 
         array (
           '200_mg' => 

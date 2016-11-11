@@ -1,18 +1,17 @@
-1478767208426	geckodriver	INFO	Listening on 127.0.0.1:52927
-1478767210399	mozprofile::profile	INFO	Using profile path C:\Users\user\AppData\Local\Temp\rust_mozprofile.ZolZNOXljlyF
-1478767210404	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\Firefox.exe
-1478767210411	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52933
-1478767211622	Marionette	INFO	Listening on port 52933
-1478767214182	Marionette	INFO	startBrowser f25e170a-a23b-4f78-beec-ec3ef35b6c0b
-1478766399211	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
-rce://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1882:1
-_changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1818:7
-exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
-Line: 1882, column: 1
-console.error: 
-  Handler function threw an exception: TypeError: threadActor is null
-Stack: _windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1882:1
-_changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1818:7
+1478868779856	geckodriver	INFO	Listening on 127.0.0.1:60663
+1478868781803	mozprofile::profile	INFO	Using profile path C:\Users\user\AppData\Local\Temp\rust_mozprofile.7C6wfKokEPQf
+1478868781808	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\Firefox.exe
+1478868781818	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60669
+1478868783004	Marionette	INFO	Listening on port 60669
+1478868785471	Marionette	INFO	startBrowser 4fd9bb95-a5c0-4562-8812-7fabb5e9e1cd
+JavaScript error: https://yandex.ru/set/s/rsya-tag-users, line 1: TypeError: l is undefined
+JavaScript error: https://yandex.ru/set/s/rsya-tag-users, line 1: TypeError: l is undefined
+[Child 30728] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30728] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://app/modules/sessionstore/FrameTree.jsm, line 204: NS_ERROR_FAILURE: Failure
+JavaScript error: chrome://browser/content/tab-content.js, line 456: NS_ERROR_FAILURE: Failure
+JavaScript error: resource://gre/modules/LoginManagerContent.jsm, line 411: NS_ERROR_FAILURE: Failure
+ebbrowser.js:1818:7
 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
 Line: 1882, column: 1
 oDriver.prototype.executeScript@chrome://marionette/content/driver.js:791:27
